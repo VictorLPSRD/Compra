@@ -29,8 +29,13 @@ O código é dividido em três classes principais:
     Produtos no carrinho:
     Nome: Produto A | Valor: 20.5
     Nome: Produto B | Valor: 15.0
+   
 # 🚀 Como Executar
 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/projeto-criptografia.git
+
+## 🧩 Pré-requisitos
+
+- **Java JDK 8 ou superior.**
