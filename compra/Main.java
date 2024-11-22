@@ -20,7 +20,7 @@ public class Main {
             System.out.println("3 - Sair\n");
             int opcao = scanner.nextInt();
             scanner.nextLine(); 
-
+            limpar.limparTerminal();
    
             if (opcao == 1) {
                 System.out.println("Você escolheu adicionar produto:\n");
