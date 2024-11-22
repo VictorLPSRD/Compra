@@ -25,7 +25,7 @@ O código é dividido em três classes principais:
    - **3** para sair do programa.
 
 ### Exemplo de Execução
-```bash
+
     Produtos no carrinho:
     Nome: Produto A | Valor: 20.5
     Nome: Produto B | Valor: 15.0
