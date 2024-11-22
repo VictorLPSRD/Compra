@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Adicionar {
-    // Método para adicionar produto
+ 
     public static Object[] adicionarProduto(Scanner scanner, String[] produtos, Float[] valores) {
         System.out.print("Informe o nome do Item: ");
         String item = scanner.nextLine();
@@ -22,7 +22,7 @@ public class Adicionar {
         
         System.out.println("Produto adicionado com sucesso!");
         
-        // Retorna ambos os arrays atualizados
+  
         return new Object[] {produtos, valores};
     }
 }
