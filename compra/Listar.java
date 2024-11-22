@@ -8,7 +8,6 @@ public class Listar {
         } else {
             System.out.println("Produtos no carrinho:");
             for (int i = 0; i < produtos.length; i++) {
-          
                 System.out.println("Nome: " + produtos[i] + " | Valor: " + valores[i]);
             }
         }
