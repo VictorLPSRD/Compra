@@ -6,14 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Array que vai armazenar os produtos no carrinho
+       
         String[] produtos = {};
         Float[] valores = {};
 
         while (true) {
             System.out.print("Carrinho de Compras:\n");
 
-            // Menu de opções
+       
             System.out.println("\nEscolha a operação:\n");
             System.out.println("1 - Adicionar");
             System.out.println("2 - Listar");
@@ -24,16 +24,16 @@ public class Main {
    
             if (opcao == 1) {
                 System.out.println("Você escolheu adicionar produto:\n");
-                // Chama o método de adicionar produto e recebe os arrays atualizados
+         
                 Object[] arrays = Adicionar.adicionarProduto(scanner, produtos, valores);
                 produtos = (String[]) arrays[0];
                 valores = (Float[]) arrays[1];
             } else if (opcao == 2) {
-                // Chama o método de listar produtos
+             
                 Listar.listarProdutos(produtos , valores);
             } else if (opcao == 3) {
                 System.out.println("Saindo...");
-                break; // Sai do loop e encerra o programa
+                break; 
             } else {
                 System.out.println("Opção inválida. Tente novamente.");
             }
